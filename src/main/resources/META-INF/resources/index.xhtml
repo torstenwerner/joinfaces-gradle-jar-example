@@ -11,6 +11,9 @@
 
     <h:body>
         <h:outputText value="#{dummy.text}" />
+        <h:inputText>
+            <f:converter converterId="sampleConverter"/>
+        </h:inputText>
     </h:body>
 </f:view>
 </html>
